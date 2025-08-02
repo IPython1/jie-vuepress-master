@@ -1,8 +1,14 @@
 import {viteBundler} from '@vuepress/bundler-vite'
 import {defaultTheme} from '@vuepress/theme-default'
+import { activeHeaderLinksPlugin } from '@vuepress/plugin-active-header-links'
+import { searchPlugin } from '@vuepress/plugin-search'
+
 import {defineUserConfig} from 'vuepress'
 
 export default defineUserConfig({
+    lang: 'zh-CN',
+    title: '可杰coding',
+    description: '这是我的第一个 VuePress 站点',
     bundler: viteBundler(),
     theme: defaultTheme({
         // logo: 'https://vuejs.org/images/logo.png',
@@ -39,8 +45,17 @@ export default defineUserConfig({
 
     }),
 
-    lang: 'zh-CN',
-    title: '可杰coding',
-    description: '这是我的第一个 VuePress 站点',
+    plugins: [
+        activeHeaderLinksPlugin(),
+        searchPlugin({
+            // 本地搜索插件配置
+            maxSuggestions: 10,
+            hotKeys: ['s', '/'],
+            // 搜索范围配置
+            getExtraFields: (page) => (page.frontmatter.tags as string[]) ?? [],
+        }),
+    ],
+
+
 
 })
