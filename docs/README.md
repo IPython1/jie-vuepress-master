@@ -1,5 +1,6 @@
 ---
 home: true
+heroImage: ./public/logo.png
 ---
 # Hello VuePress :tada:! :100:
 ## 今天也是开心的一天！ 

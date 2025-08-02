@@ -8,7 +8,7 @@ import {defineUserConfig} from 'vuepress'
 export default defineUserConfig({
     lang: 'zh-CN',
     title: '可杰coding',
-    description: '这是我的第一个 VuePress 站点',
+    description: '在互联网的打怪升级日记',
     bundler: viteBundler(),
     theme: defaultTheme({
         // logo: 'https://vuejs.org/images/logo.png',
