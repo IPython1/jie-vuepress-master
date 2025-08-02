@@ -7,8 +7,8 @@ import {defineUserConfig} from 'vuepress'
 
 export default defineUserConfig({
     lang: 'zh-CN',
-    title: '可杰coding',
-    description: '在互联网的打怪升级日记',
+    title: '可杰coding',//站点title  默认是主题配置>页面单独配置
+    description: '从零到一学习cursor使用',//这里是首页不被加粗的文字叙述
     bundler: viteBundler(),
     theme: defaultTheme({
         // logo: 'https://vuejs.org/images/logo.png',
