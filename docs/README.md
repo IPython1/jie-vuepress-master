@@ -1,1 +1,3 @@
-'# Hello VuePress' 
+# Hello VuePress :tada:! :100:
+## 今天也是开心的一天！ 
+### 未来应该何去何从呢？谁又能明白谁~
