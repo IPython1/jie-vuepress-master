@@ -1,13 +1,13 @@
 ---
 home: true
-heroImage: ./public/logo.png
-heroText: 在互联网的打怪升级日志
+heroImage: https://vuejs.org/images/logo.png
+heroText: 在互联网的打怪升级日记
 heroHeight: 1000
 actions:
-  - text: 快速上手
+  - text: 后端开发
     link: /zh/guide/getting-started.html
     type: primary
-  - text: 项目简介
+  - text: 前端开发
     link: /zh/guide/introduction.html
     type: secondary
 features:
@@ -19,6 +19,9 @@ features:
     details: VuePress 会为每个页面预渲染生成静态的 HTML，同时，每个页面被加载的时候，将作为 SPA 运行。
 footer: 'MIT Licensed | Copyright © 2018-present Evan You'
 ---
-# Hello VuePress :tada:! :100:
-## 今天也是开心的一天！ 
-### 未来应该何去何从呢？谁又能明白谁~
+
+### :point_right: [后端平滑学习路线~](./backend/README.md)
+### :point_right: [前端平滑学习路线~](./frontend/README.md)
+### :point_right: [学习资源快速跳转任意门~](./guide/README.md)
+
+

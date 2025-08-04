@@ -8,22 +8,30 @@ import {defineUserConfig} from 'vuepress'
 export default defineUserConfig({
     lang: 'zh-CN',
     title: '可杰coding',//站点title  默认是主题配置>页面单独配置
-    description: '从零到一学习cursor使用',//这里是首页不被加粗的文字叙述
+    description: '全网平滑学习路线',//这里是首页不被加粗的文字叙述
     bundler: viteBundler(),
     theme: defaultTheme({
-        // logo: 'https://vuejs.org/images/logo.png',
-        logo: '../public/logo.png',
+        logo: 'https://vuejs.org/images/logo.png',
+        // logo: '../public/logo.png',
         navbar: [
             {
                 text: '主页',
                 link: '/',
             },
             {
-                text: '文档',
+                text: '后端学习路线',
+                link: '/backend/',//链接的名字和文件夹的名字保持一致
+            },
+            {
+                text: '前端学习路线',
+                link: '/frontend/',//链接的名字和文件夹的名字保持一致
+            },
+            {
+                text: '参考',
                 link: '/guide/',//链接的名字和文件夹的名字保持一致
             },
             {
-                text: '组别',
+                text: '分组',
                 prefix: '/group/',
                 children: [
                     {

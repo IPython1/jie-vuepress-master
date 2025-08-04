@@ -1,5 +1,5 @@
-import { GitContributors } from "H:/杰杰睡不醒/Code/personWebsite/jie-vuepress-master/node_modules/@vuepress/plugin-git/lib/client/components/GitContributors.js";
-import { GitChangelog } from "H:/杰杰睡不醒/Code/personWebsite/jie-vuepress-master/node_modules/@vuepress/plugin-git/lib/client/components/GitChangelog.js";
+import { GitContributors } from "/Users/dongyajie/code/webP/jie-vuepress-master/node_modules/@vuepress/plugin-git/lib/client/components/GitContributors.js";
+import { GitChangelog } from "/Users/dongyajie/code/webP/jie-vuepress-master/node_modules/@vuepress/plugin-git/lib/client/components/GitChangelog.js";
 
 export default {
   enhance: ({ app }) => {
